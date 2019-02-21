@@ -1,6 +1,6 @@
 let imageIndex = 0
 let imageMax = 5
-let images = ["cow.jpg", "pig.jpg", "chicken.jpg", "lamb.jpg", "horse.jpg"]
+let images = ["pictures/cow.jpg", "pictures/pig.jpg", "pictures/chicken.jpg", "pictures/lamb.jpg", "pictures/horse.jpg"]
 
 function previous()
 {
