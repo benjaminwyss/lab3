@@ -5,3 +5,36 @@ body
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+h1
+{
+  font-family: "Courier New";
+  font-size: 30pt;
+}
+
+h3
+{
+  font-family: "Courier New";
+  font-size: 24pt;
+}
+
+a
+{
+    background-color: yellow;
+    color: black;
+    font-family: "Courier New";
+    font-size: 12pt;
+}
+a:hover
+{
+  background-color: crimson;
+  color: black;
+  font-family: "Courier New";
+  font-size: 16pt;
+}
+
+p
+{
+  font-family: "Courier New";
+  font-size: 11pt;
+}
