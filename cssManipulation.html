@@ -1,25 +1,39 @@
 <html>
   <head>
 
-    <title>Password Validator</title>
+    <title>CSS Manipulator</title>
     <script src="cssManipulation.js"></script>
     <link href="cssManipulation.css" rel="stylesheet">
-    
+
   </head>
 
   <body>
 
-    <h1>Password Validator</h1>
-    <br>
+    <h1>CSS Manipulator</h1>
+
+    <p>Here is some really cool text that you can change the properties of!</p>
 
     <form>
-      Password:<br>
-      <input type="text" id="password"><br>
-      Confirm Password:<br>
-      <input type="text" id="confirm">
+      Border:<br>
+      Red (0-255):<br>
+      <input type="text" id="borderRed"><br>
+      Green (0-255):<br>
+      <input type="text" id="borderGreen"><br>
+      Blue (0-255):<br>
+      <input type="text" id="borderBlue"><br>
+      Width:<br>
+      <input type="text" id="borderWidth"><br>
+      <br>
+      Background:<br>
+      Red (0-255):<br>
+      <input type="text" id="backgroundRed"><br>
+      Green (0-255):<br>
+      <input type="text" id="backgroundGreen"><br>
+      Blue (0-255):<br>
+      <input type="text" id="backgroundBlue"><br>
     </form>
 
-    <button type="button" onclick="validate()">Validate!</button>
+    <button type="button" onclick="update()">Update!</button>
 
   </body>
 </html>
